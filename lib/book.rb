@@ -4,10 +4,6 @@ class Book
     @title = title
   end
 
-def page_count=(num)
-  @page_count = num
-end
-
   def turn_page
-    @page_count - 1
+     puts "Flipping the page...wow, you read fast!"
 end
